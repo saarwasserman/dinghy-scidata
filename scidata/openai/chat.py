@@ -1,3 +1,6 @@
+""" OpenAI chat utilities """
+
+
 from openai import OpenAI
 import click
 
@@ -6,7 +9,7 @@ from scidata.config import settings
 
 @click.group(name="chat")
 def cli_openai_chat():
-    """openai chat utils"""
+    """chat utils"""
     pass  # pylint: disable=unnecessary-pass
 
 
