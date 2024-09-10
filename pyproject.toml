@@ -17,6 +17,9 @@ requests = "^2.32.3"
 [tool.poetry.scripts]
 "scidata" = "scidata.console:main"
 
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.3.1"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
